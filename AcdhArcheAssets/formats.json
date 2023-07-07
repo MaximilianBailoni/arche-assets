@@ -2,6 +2,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "DataType" : "Dataset",
       "ARCHE_conformance": "",
       "Further_specifications" : "",
       "IANA_reference" : "",
@@ -20,6 +21,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "DataType" : "Dataset",
       "ARCHE_conformance": "",
       "Further_specifications" : "",
       "IANA_reference" : "",
@@ -36,8 +38,9 @@
       "name" : ""
    },
    {
-      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
+      "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
+      "DataType" : "Image (Raster)",
       "ARCHE_conformance": "",
       "Further_specifications" : "",
       "IANA_reference" : "",
@@ -51,11 +54,12 @@
       "extensions" : [
          "cpg"
       ],
-      "name" : ""
+      "name" : "Manga Studio Page File"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "DataType" : "Dataset",
       "ARCHE_conformance": "preferred",
       "Further_specifications" : "",
       "IANA_reference" : "RFC4180:https://tools.ietf.org/html/rfc4180 , RFC7111:https://tools.ietf.org/html/rfc7111",
@@ -76,6 +80,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "DataType" : "Dataset",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "",
       "IANA_reference" : "",
@@ -99,6 +104,7 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "DataType" : "Dataset",
       "ARCHE_conformance": "accepted",
       "Further_specifications" : "https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf , https://en.wikipedia.org/wiki/Shapefile",
       "IANA_reference" : "",
@@ -119,8 +125,9 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
       "ARCHE_docs" : "",
+      "DataType" : "Image", 
       "ARCHE_conformance": "accepted",
-      "Further_specifications" : "",
+      "Further_specifications" : "https://www.wikidata.org/wiki/Q691652",
       "IANA_reference" : "",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
@@ -132,13 +139,14 @@
       "extensions" : [
          "dxf"
       ],
-      "name" : "Drawing Interchange Format (Autodesk)"
+      "name" : "Drawing Interchange File Format (Autodesk)"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "DataType" : "GeoJSON Dataset",
       "ARCHE_conformance": "",
-      "Further_specifications" : "https://tools.ietf.org/html/rfc7946 , http://geojson.org/",
+      "Further_specifications" : "https://tools.ietf.org/html/rfc7946 , http://geojson.org/", https://www.wikidata.org/wiki/Q5533904"
       "IANA_reference" : "",
       "IANA_template" : "https://www.iana.org/assignments/media-types/application/geo+json",
       "Informal_MIME_type" : [
@@ -159,8 +167,9 @@
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/dataset",
       "ARCHE_docs" : "",
+      "DataType" : "Other",
       "ARCHE_conformance": "",
-      "Further_specifications" : "",
+      "Further_specifications" : "https://www.wikidata.org/wiki/Q1537683",
       "IANA_reference" : "",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
@@ -172,13 +181,14 @@
       "extensions" : [
          "gfs"
       ],
-      "name" : ""
+      "name" : "Global File System"
    },
    {
       "ARCHE_category" : "https://vocabs.acdh.oeaw.ac.at/archecategory/audioVisual",
       "ARCHE_docs" : "",
+      "DataType" : "Audio Visual"
       "ARCHE_conformance": "accepted",
-      "Further_specifications" : "",
+      "Further_specifications" : "https://www.wikidata.org/wiki/Q1537683",
       "IANA_reference" : "",
       "IANA_template" : "",
       "Informal_MIME_type" : [],
